@@ -7,7 +7,7 @@ function Login() {
       style={{
         height: "100vh",
         backgroundImage:
-          "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://thepropertypro.co/wp-content/uploads/2019/08/Property-Pro-Logo-Light-Background-Final.png')",
+          "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://img.lovepik.com/photo/40191/1328.jpg_wh860.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -19,7 +19,7 @@ function Login() {
           width: "400px",
           borderRadius: "15px",
           backdropFilter: "blur(10px)",
-          backgroundColor: "rgba(248, 241, 176, 0.85)",
+          backgroundColor: "rgba(253, 253, 248, 0.55)",
           textAlign: "center",
         }}
       >
@@ -29,7 +29,7 @@ function Login() {
             src={logo}
             alt="Login Logo"
             style={{
-              width: "350px",
+              width: "850px",
               height: "170px",
               objectFit: "contain",
               marginRight: "10px",
@@ -81,11 +81,11 @@ function Login() {
         </form>
 
         <p
-          className="text-center mt-3 text-secondary"
-          style={{ fontSize: "14px" }}
+          className="text-center mt-3 text-dark"
+          style={{ fontSize: "16px" }}
         >
           Don’t have an account?{" "}
-          <a href="#" className="text-warning fw-semibold">
+          <a href="#" className="text-primary fw-semibold">
             Sign Up
           </a>
         </p>
