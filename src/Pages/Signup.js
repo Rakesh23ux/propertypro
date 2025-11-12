@@ -20,7 +20,7 @@ function Signup() {
       style={{
         height: "100vh",
         backgroundImage:
-          "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://img.lovepik.com/photo/40191/1328.jpg_wh860.jpg')",
+          "linear-gradient(rgba(22, 22, 22, 0.4), rgba(0, 0, 0, 0.4)), url('https://img.lovepik.com/photo/40191/1328.jpg_wh860.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
