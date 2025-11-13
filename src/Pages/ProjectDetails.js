@@ -1,10 +1,8 @@
 // src/Pages/ProjectDetails.js
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-// You can later fetch these details from an API.
-// For now, use a static dataset matching your LandingPage cards.
 import project1 from "../images/project1.jpg";
 import project2 from "../images/project2.jpg";
 import project3 from "../images/project3.jpg";
@@ -72,6 +70,11 @@ const projects = [
 function ProjectDetails() {
   const { id } = useParams();
   const navigate = useNavigate();
+
+  // ✅ Scroll to top whenever this component loads or id changes
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [id]);
 
   const project = projects.find((p) => p.id.toString() === id);
 

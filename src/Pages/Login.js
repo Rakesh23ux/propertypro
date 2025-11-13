@@ -7,7 +7,7 @@ function Login() {
       style={{
         height: "100vh",
         backgroundImage:
-          "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://thepropertypro.co/wp-content/uploads/2019/08/Property-Pro-Logo-Light-Background-Final.png')",
+          "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://t3.ftcdn.net/jpg/06/32/02/52/360_F_632025216_WMXXsXoI2c8ZSPkwsFBSH4BMqm9LumdP.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -19,7 +19,7 @@ function Login() {
           width: "400px",
           borderRadius: "15px",
           backdropFilter: "blur(10px)",
-          backgroundColor: "rgba(248, 241, 176, 0.85)",
+          backgroundColor: "rgba(236, 233, 205, 0.23)",
           textAlign: "center",
         }}
       >
@@ -81,7 +81,7 @@ function Login() {
         </form>
 
         <p
-          className="text-center mt-3 text-secondary"
+          className="text-center mt-3 text-white"
           style={{ fontSize: "14px" }}
         >
           Don’t have an account?{" "}

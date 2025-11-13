@@ -7,7 +7,7 @@ function Signup() {
       style={{
         height: "100vh",
         backgroundImage:
-          "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1502673530728-f79b4cab31b1?auto=format&fit=crop&w=1400&q=80')",
+          "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://t3.ftcdn.net/jpg/06/32/02/52/360_F_632025216_WMXXsXoI2c8ZSPkwsFBSH4BMqm9LumdP.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -19,7 +19,7 @@ function Signup() {
           width: "400px",
           borderRadius: "15px",
           backdropFilter: "blur(10px)",
-          backgroundColor: "rgba(255, 255, 255, 0.85)", // glass effect
+          backgroundColor: "rgba(255, 255, 255, 0.27)", // glass effect
         }}
       >
         <h4 className="fw-bold text-center mb-4 text-warning">Sign Up</h4>
@@ -69,7 +69,7 @@ function Signup() {
           </button>
         </form>
 
-        <p className="text-center mt-3 text-secondary" style={{ fontSize: "14px" }}>
+        <p className="text-center mt-3 text-white" style={{ fontSize: "14px" }}>
           Already have an account?{" "}
           <a href="#" className="text-warning fw-semibold">
             Login
