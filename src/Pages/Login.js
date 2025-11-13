@@ -19,7 +19,7 @@ function Login() {
           width: "400px",
           borderRadius: "15px",
           backdropFilter: "blur(10px)",
-          backgroundColor: "rgba(236, 233, 205, 0.23)",
+          backgroundColor: "rgba(248, 241, 176, 0.85)",
           textAlign: "center",
         }}
       >
@@ -29,7 +29,7 @@ function Login() {
             src={logo}
             alt="Login Logo"
             style={{
-              width: "350px",
+              width: "850px",
               height: "170px",
               objectFit: "contain",
               marginRight: "10px",
@@ -81,11 +81,11 @@ function Login() {
         </form>
 
         <p
-          className="text-center mt-3 text-white"
+          className="text-center mt-3 text-secondary"
           style={{ fontSize: "14px" }}
         >
           Don’t have an account?{" "}
-          <a href="#" className="text-warning fw-semibold">
+          <a href="#" className="text-primary fw-semibold">
             Sign Up
           </a>
         </p>
